@@ -24,7 +24,7 @@ class String
   end
 
   def count_sentences
-    sntcs = self.split(/[\w'-]+|[.,!?]+/)
+    sntcs = self.split(/[\w'-]+|[.!?]+/)
     sntcs.count
   end
 end
